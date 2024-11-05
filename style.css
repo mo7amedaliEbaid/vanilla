@@ -5,9 +5,9 @@ body {
 
 }
 
-.container{
+.container {
     background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0,.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
     margin: 0 auto;
     margin-top: 50px;
     text-align: center;
@@ -16,9 +16,33 @@ body {
     padding: 20px;
 }
 
-form{
+form {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 60%;
+
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+form input[type="submit"]:hover {
+    background-color: #0062cc;
+   
 }
